@@ -1,0 +1,19 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "description": "Explain the difference between let, const and var in JavaScript.",
+            "answer": "In JavaScript, var is function-scoped and can be re-declared; let and const are block-scoped, with let allowing re-assignment and const preventing it. However, const objects can have their contents modified."
+        },
+        {
+            "id": "2",
+            "description": "O que faz a função JSON.stringify()",
+            "answer": "Converte um objeto JavaScript em uma string no formato JSON."
+        },
+        {
+            "id": "3",
+            "description": "Para que serve o método addEventListener() em JavaScript?",
+            "answer": "Serve para registrar uma função que será executada quando um determinado evento ocorrer em um elemento, como um clique click, por exemplo."
+        }
+    ]
+}

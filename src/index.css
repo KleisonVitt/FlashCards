@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+
+  --color-progress-fill: rgb(109, 109, 109);
+  --color-bg-card: rgb(109, 109, 109);
+  --color-bg-nav: rgb(109, 109, 109);
+  --color-outline: rgb(138, 138, 138);
+  --color-progress-bg: #2c2c2c;
+  --color-text-white: #fff;
+  --border-radius: 0.4rem;
+  --padding-default: 1rem;
+}
+
+#root {
+  margin: auto;
+}
+
+body {
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #242424;
+  color: #e0e0e0;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
